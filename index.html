@@ -7,50 +7,64 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #f8f9fa;
             color: #333;
             margin: 0;
-            padding: 0;
+            padding: 40px 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            min-height: 100vh;
         }
         .container {
             background-color: #ffffff;
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
             max-width: 600px;
+            width: 100%;
             text-align: center;
+            border-top: 6px solid #007bff;
         }
         h1 {
             color: #2c3e50;
-            margin-bottom: 10px;
+            margin-top: 0;
+            font-size: 28px;
+            margin-bottom: 15px;
         }
         p {
             font-size: 16px;
             line-height: 1.6;
-            color: #666;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .contact-box {
+            background-color: #eef2f5;
+            border: 1px solid #dce4ec;
+            padding: 25px;
+            border-radius: 8px;
             margin-bottom: 20px;
         }
-        .contact-btn {
-            display: inline-block;
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s;
+        .contact-box h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 18px;
+            margin-bottom: 10px;
         }
-        .contact-btn:hover {
-            background-color: #0056b3;
+        .email-text {
+            font-size: 20px;
+            font-weight: bold;
+            color: #007bff;
+            word-break: break-all;
+            user-select: all;
+            background: #fff;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px dashed #007bff;
+            display: inline-block;
         }
         .footer {
             margin-top: 30px;
-            font-size: 12px;
+            font-size: 14px;
             color: #aaa;
         }
     </style>
@@ -59,10 +73,15 @@
 
     <div class="container">
         <h1>SPSP-Anime</h1>
-        <p>Welcome to our official Rare Anime Wallpapers page. We build high-quality mobile applications and games. If you need support with any of our apps, please reach out to us below.</p>
+        <p>Welcome to Rare Anime Wallpapers developer studio. We build high-quality mobile applications and games. Thank you for using our products!</p>
         
-        <!-- Replace the email address below with your actual support email -->
-        <a href="mailto:spspanime.support@gmail.com" class="contact-btn">Contact Support</a>
+        <div class="contact-box">
+            <h3>Support & Contact</h3>
+            <p style="margin-bottom: 15px; font-size: 15px;">For inquiries, feedback, or app support, please email us directly at:</p>
+            
+            <!-- Replace the email below with your actual email address -->
+            <div class="email-text">spspanime.support@gmail.com</div>
+        </div>
         
         <div class="footer">
             &copy; 2026 SPSP-Anime. All rights reserved.
